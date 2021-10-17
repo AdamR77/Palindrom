@@ -2,11 +2,9 @@
 
 
 def check_palindrom (string):
-    reversed_string = string[::-1]
-    if string == reversed_string:
+    if string == string[::-1]:
       return True
-    else:
-        return False
+    return False
 
 #spr
 string  = "madam"
